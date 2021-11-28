@@ -50,7 +50,7 @@ ul {
 }
 
 li,
-h3 {
+h2 {
   list-style: none;
 }
 
@@ -74,8 +74,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
-label[for="new-task"] {
+h2 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,9 +102,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
+#topSectionForAddingElementToList h2 {
+  margin: 0 0 20px;
+}
+
 label[for="new-task"] {
   display: block;
-  margin: 0 0 20px;
 }
 
 input#new-task {
