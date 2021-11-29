@@ -12,19 +12,19 @@
     </header>
 
     <main class="todo-wrapper">
-      <section class="section section-new">
+      <section class="section">
         <h2 class="section__title section__title_margin-bottom section__title_padding-bottom">
           <label class="section__label" for="new-task">Add Item</label>
         </h2>
         <div class="section__row">
-          <input id="new-task" class="input-txt input-txt_size_l" type="text">
+          <input id="newTask" class="input-txt input-txt_size_l" type="text">
           <button class="btn">Add</button>
         </div>
       </section>
 
       <section class="section">
         <h2 class="section__title section__title_padding-top section__title_padding-bottom">Todo</h2>
-        <ul id="incompleteTasks" class="task-list task-list_stage_new">
+        <ul id="incompleteTasks" class="task-list task-list_stage_wip">
           <li class="task-list__item">
             <input class="task-list__checkbox" type="checkbox">
             <label class="task-list__label">Pay Bills</label>
@@ -40,14 +40,15 @@
             <input type="text" value="Go Shopping" class="input-txt input-txt_size_m">
             <button class="btn btn_edit">Save</button>
             <button class="btn btn_delete">
-              <img class="btn__img" src="./remove.svg" alt="remove"></button>
+              <img class="btn__img" src="./remove.svg" alt="remove">
+            </button>
             </li>
         </ul> 
       </section>
       
       <section class="section">
         <h2 class="section__title section__title_padding-top section__title_padding-bottom">Completed</h2>
-        <ul id="completed-tasks" class="task-list task-list_stage_completed">
+        <ul id="completedTasks" class="task-list task-list_stage_completed">
           <li class="task-list__item">
             <input class="task-list__checkbox" type="checkbox" checked>
             <label class="task-list__label">See the Doctor</label>
