@@ -1,3 +1,14 @@
+/* Reset Style */
+li,
+h2 {
+  list-style: none;
+}
+
+input,
+button {
+  outline: none;
+}
+
 /* Basic Style */
 .body {
   background-color: #f8f8f8;
@@ -48,16 +59,6 @@
 .task-list {
   margin: 0;
   padding: 0px;
-}
-
-li,
-h2 {
-  list-style: none;
-}
-
-input,
-button {
-  outline: none;
 }
 
 .btn {
